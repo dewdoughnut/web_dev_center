@@ -1,0 +1,30 @@
+p{
+    margin: 0;
+}
+div{
+    height: 80vh;
+    margin: 10vh 0;
+    border: var(--border);
+}
+.title{
+    grid-column: 1 / 2;
+}
+table p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+.margins{
+    display: grid;
+}
+.margins p{
+    margin:auto;
+}
